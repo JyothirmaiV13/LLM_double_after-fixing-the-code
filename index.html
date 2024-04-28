@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Art Supplies</title>
+<style>
+  body { background: linear-gradient(90deg, rgba(255,175,189,1) 0%, rgba(100,216,243,1) 100%); font-family: Arial, sans-serif; }
+  .header, .footer { background-color: #6a0dad; color: white; padding: 10px; text-align: center; }
+  .navigation { text-align: center; margin-bottom: 20px; }
+  .navigation a { margin: 0 15px; text-decoration: none; color: darkslateblue; font-size: 20px; }
+  .product { margin: 20px; padding: 10px; border: 1px solid gray; border-radius: 8px; background-color: white; display: inline-block; }
+  .product img { width: 100px; height: auto; }
+  .product button { background-color: #00008B; color: white; padding: 10px; border: none; cursor: pointer; }
+  .product-info { margin-top: 10px; }
+  .footer a { color: white; margin: 0 10px; }
+  #searchBar { padding: 10px; width: 40%; }
+  #searchButton { padding: 10px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>Art Supplies</h1>
+</div>
+
+<div class="navigation">
+<a href="#">Home</a>
+<a href="#">Supplies</a>
+<a href="#">Sign-In</a>
+   <label for="searchBar">Search:</label>
+<input type="text" id="searchBar" placeholder="Search products...">
+<button id="searchButton">Search</button>
+</div>
+
+<div class="body">
+  <p>Welcome to our Art Supplies store! Explore our wide range of products for all your creative needs.</p>
+  
+  <div class="product">
+    <img src="paintbrush.jpg" alt="Paintbrush">
+    <div class="product-info">
+      <p>Professional Paintbrush Set</p>
+      <p>$19.99</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+  
+  <div class="product">
+    <img src="watercolors.jpg" alt="Watercolors">
+    <div class="product-info">
+      <p>Watercolor Paint Set - 24 Colors</p>
+      <p>$24.99</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+  
+  <div class="product">
+    <img src="sketchpad.jpg" alt="Sketchpad">
+    <div class="product-info">
+      <p>Sketchpad - A4, 120gsm, 50 Sheets</p>
+      <p>$9.99</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>&copy; 2023 Art Supplies</p>
+  <a href="#">Instagram</a>
+  <a href="#">Facebook</a>
+  <a href="#">Twitter</a>
+</div>
+
+</body>
+</html>
